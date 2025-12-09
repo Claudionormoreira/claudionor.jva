@@ -1,2 +1,0 @@
-# claudionor.jva
-Javascript
