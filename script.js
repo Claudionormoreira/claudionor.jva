@@ -9,11 +9,15 @@ function adicionarTarefa() {
     // Se o valor do input for vazio, então mostra uma mensagem de erro para o usuário.
     if (tarefa == ""){
         //mostre uma mensagem de erro
+        // cor vermelha #A34743
+        //mensagem.textContent.style.color
         let mensagemErro = "Digite uma tarefa para adicioná-las a sua lista"
         mensagem.textContent = mensagemErro
         
     } else { 
         //mensagem de tarefa adicionada com sucesso
+        //cor verde #28A745
+        //mensagem.textContent.style.color
        let mensagemSucesso = "Tarefa adicionada com sucesso!"
        mensagem.textContent = mensagemSucesso
 
